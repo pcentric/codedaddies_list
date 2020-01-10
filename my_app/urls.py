@@ -1,8 +1,8 @@
 from . import views
-from django.urls import path
+from django.conf.urls import  url
 
 urlpatterns = [
-    path('', views.home, name='home'),
-    path('new_search', views.new_search, name='new_search'),
+    url(r'^$', views.home, name='home'),
+    url(r'^new_search', views.new_search, name='new_search'),
 
 ]
