@@ -6,7 +6,6 @@ attrs==19.3.0
 autopep8==1.4.4
 beautifulsoup4==4.6.0
 black==19.10b0
-Brlapi==0.6.6
 certifi==2018.1.18
 chardet==3.0.4
 chrome-gnome-shell==0.0.0
